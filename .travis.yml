@@ -9,4 +9,4 @@ deploy:
   api_key: "9d8f7081-28e1-48fc-968a-c3f2f1b58d1c"
  app:
     master: travisci-staging
-    production: travisci-production
+
