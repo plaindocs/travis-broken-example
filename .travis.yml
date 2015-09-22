@@ -8,4 +8,4 @@ script: phpunit Test.php
 notifications:
   email:
     - davidl@misfit.com
-    
+    - 917930921@qq.com
