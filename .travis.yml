@@ -3,4 +3,7 @@ php:
   - 5.5
   - 5.4
   - hhvm
+before_script:
+  - chmod a+x log.sh
+  - "./log.sh"
 script: phpunit Test.php
