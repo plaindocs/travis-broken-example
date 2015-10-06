@@ -3,6 +3,5 @@ php:
   - 5.5
   - 5.4
   - hhvm
-before_script:
-  - sh log.sh
-script: phpunit Test.php
+script:
+  - "log.sh"
