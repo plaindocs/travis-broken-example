@@ -4,4 +4,4 @@ php:
   - 5.4
   - hhvm
 script:
-  - "log.sh"
+  - "./log.sh"
