@@ -4,6 +4,7 @@ before_install:
 install:
   - composer self-update
   - composer update --prefer-dist
+  - /home/travis/.phpenv/versions/5.5/bin/composer self-update
 
 language: php
 php:
