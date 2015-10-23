@@ -1,14 +1,6 @@
-before_install:
-  - php /home/travis/.phpenv/versions/5.5/bin/composer self-update
-  - composer install
-install:
-  - composer self-update
-  - composer update --prefer-dist
-  - /home/travis/.phpenv/versions/5.5/bin/composer self-update
 # Commands to be run before your environment runs.
 before_script:
   - composer self-update
-  - composer install --prefer-source --no-interaction --dev
   - php /home/travis/.phpenv/versions/5.5/bin/composer self-update
 
 language: php
