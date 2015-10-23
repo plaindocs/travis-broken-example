@@ -1,6 +1,9 @@
 language: php
+before_install:
+  - php /home/travis/.phpenv/versions/5.3.26/bin/composer.phar self-update
 php:
   - 5.5
   - 5.4
   - hhvm
 script: phpunit Test.php
+
