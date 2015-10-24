@@ -11,9 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-.. image:: https://readthedocs.org/projects/travis-broken-example/badge/?version=latest
-:target: http://travis-broken-example.readthedocs.org/en/latest/?badge=latest
-:alt: Documentation Status
+.. image:: https://travis-ci.org/BrentFoster/travis-broken-example.svg?branch=master
+:target: https://travis-ci.org/BrentFoster/travis-broken-example
 
 
 
