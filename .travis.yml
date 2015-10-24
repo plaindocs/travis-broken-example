@@ -12,4 +12,5 @@ script: phpunit Test.php
 notifications:
     on_success: never
     on_failure: never
+    use_notice: true
 
