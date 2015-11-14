@@ -1,8 +1,9 @@
-language: php
+language: ruby
 php:
   - 5.5
   - 5.4
   - hhvm
 script: phpunit Test.php
+
 
 # add a comment that doesn't do anything
