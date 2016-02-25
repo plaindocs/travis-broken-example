@@ -2,9 +2,9 @@ language: php
 php:
   - 5.5
 script: 
-  - gem install travis
+  #- gem install travis
   - phpunit Test.php
-  - travis show
+  #- travis show
 after_success:
   # Check that current branch is master, or quit
   - if [[ "$TRAVIS_BRANCH" != "master" ]]; then echo "Deployments are only done for the master branch. Current branch is $TRAVIS_BRANCH"; exit 0; fi
