@@ -2,7 +2,7 @@ language: php
 php:
   - 5.5
 script: 
-  - gem -y install travis
+  - gem install travis --forece
   - phpunit Test.php
   - travis show
 after_success:
