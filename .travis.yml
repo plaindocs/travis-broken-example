@@ -2,11 +2,11 @@ language: php
 php:
   - 5.5
 script: 
-  - gem install travis --forece
+  - gem install travis --force
   - phpunit Test.php
   - travis show
 after_success:
   # Check that current branch is master, or quit
-  - echo "Branch Name is $TRAVIS_BRANCH"
+  - echo "Branch Name is" $TRAVIS_BRANCH
   - if [[ "$TRAVIS_BRANCH" != "master" ]]; then echo "Deployments are only done for the master branch. Current branch is $TRAVIS_BRANCH"; exit 0; fi
   - echo "Deploying build $TRAVIS_BUILD_NUMBER"
