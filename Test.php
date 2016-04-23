@@ -7,7 +7,7 @@ class Test extends PHPUnit_Framework_TestCase
 	}
 
   public function testTwoTimesTwo() {
-    $this->assertEquals(2*2,5);
+    $this->assertEquals(2*2,4);
   }  
 }
 
