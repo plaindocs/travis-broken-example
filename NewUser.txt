@@ -1,3 +1,3 @@
-git add -B
-git commit -m 'Rahat'
+git add -A
+git commit -m 'bulding travis CI fixing the bug'
 git push
