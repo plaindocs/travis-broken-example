@@ -1,6 +1,6 @@
-language: php
+language: php #This line tells Travis the language the project is written in
 php:
   - 5.5
   - 5.4
   - hhvm
-script: phpunit Test.php
+script: phpunit Test.php #This line tells Travis to test Test.php with phpunit against PHP versions 5.5, 5.4 and HHVM (listed above)
