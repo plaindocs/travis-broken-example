@@ -1,10 +1,17 @@
 <?php
 
-class Test extends PHPUnit_Framework_TestCase
-{
-	public function testOnePlusOne() {
-		$this->assertEquals(1+1,1);
-  	}
+class FileTest extends PHPunit_Framework_Testcase {
+
+    /*
+     * Testing the translation files
+     */
+
+    public function testfile(){
+        include(__FILE__);
+        
+		$result = $lang['BEEIMG'];
+        $this->assertEquals("BeeIMG", $result);
+    }
 }
 
 ?>
