@@ -9,7 +9,7 @@ $lang = array();
 $lang['BEEIMG'] = 'BeeIMG';
 
 // Titles
-$lang['TITLE_HOME'] = 'Service gratuit d'hébergment et de partage d\'images';
+$lang['TITLE_HOME'] = 'Service gratuit d\'hébergment et de partage d\'images';
 $lang['TITLE_UPLOAD'] = 'Téléverser des images';
 $lang['TITLE_RECENT'] = 'Images récentes';
 $lang['TITLE_STATS'] = 'Statistiques';
