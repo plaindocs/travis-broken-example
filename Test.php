@@ -1,6 +1,6 @@
 <?php
 
-class FileTest extends PHPunit_Framework_Testcase {
+class Test extends PHPunit_Framework_Testcase {
 
     /*
      * Testing the translation files
