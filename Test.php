@@ -6,7 +6,7 @@ class Test extends PHPunit_Framework_Testcase {
      * Testing the translation files
      */
 
-    public function testfile(){
+    public function testOnePlusOne(){
         include(__FILE__);
         
 		$result = $lang['BEEIMG'];
