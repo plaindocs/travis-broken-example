@@ -1,20 +1,21 @@
 <?php
 
-class Test1 extends PHPunit_Framework_Testcase {
+class TestFiles extends PHPunit_Framework_Testcase {
 
     /*
      * Testing the translation files
      */
 
-    public function testOnePlusOne(){
-        //include(__FILE__);
-$dir = glob(__FILE__."lang.*.php")
-foreach ($dir as $fileinfo) {
-    if (!$fileinfo->isDot()) {
-        var_dump($fileinfo->getFilename());
+    public function testloadfiles(){
+	$dir = glob("lang.*.php");
+		foreach ($dir as $file) {
+			var_dump($file);
+			$this->filetest($file);
+		}
     }
-}
-        
+	
+	public function filetest($file){
+    include_once($file);
 	$result = $lang['BEEIMG'];
         $this->assertEquals("BeeIMG", $result);
     }
