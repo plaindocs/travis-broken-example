@@ -1,15 +1,15 @@
 <?php
 
-class Test extends PHPunit_Framework_Testcase {
+class Test1 extends PHPunit_Framework_Testcase {
 
     /*
      * Testing the translation files
      */
 
     public function testOnePlusOne(){
-        include(__FILE__);
+        //include(__FILE__);
         
-		$result = $lang['BEEIMG'];
+	$result = $lang['BEEIMG'];
         $this->assertEquals("BeeIMG", $result);
     }
 }
