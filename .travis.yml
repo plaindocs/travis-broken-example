@@ -1,6 +1,1 @@
-language: php
-php:
-  - 5.5
-  - 5.4
-  - hhvm
-script: phpunit Test.php
+script: java -Duser=alex.lenkevich@creamtec.com -Dpassword=12345678 -Dbrowser.name=chrome -Dhost=http://ec2-35-162-164-44.us-west-2.compute.amazonaws.com/ -jar c:\screenster-ci.jar External_Tests
