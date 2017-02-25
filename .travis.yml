@@ -5,8 +5,6 @@ python:
   
 # command to install dependencies
 install: 
- - pip install numpy 
- - pip install scipy
- - pip install -U scikit-learn
+
 # command to run tests
-script: pytest
+script: pytest.py
