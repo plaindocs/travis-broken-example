@@ -1,6 +1,10 @@
-language: php
-php:
-  - 5.5
-  - 5.4
-  - hhvm
-script: phpunit Test.php
+language: python
+python:
+  - "3.6"
+  - "3.6-dev" # 3.6 development branch
+  
+# command to install dependencies
+install: 
+
+# command to run tests
+script: python pytest.py
