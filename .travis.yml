@@ -7,4 +7,4 @@ python:
 install: 
 
 # command to run tests
-script: pytest.py
+script: python pytest.py
