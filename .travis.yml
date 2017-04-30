@@ -3,4 +3,11 @@ php:
   - 5.5
   - 5.4
   - hhvm
+
+env:
+  - PHP_ENV="development"
+  - PHP_ENV="production"
+ 
+service: 
+  - mongodb
 script: phpunit Test.php
