@@ -1,5 +1,5 @@
 ### Status
-[![Build Status](https://travis-ci.org/simkimsia/UtilityBehaviors.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
+[![Build Status](https://travis-ci.org/yemyat89/travis-broken-example.png)](https://travis-ci.org/yemyat89/travis-broken-example)
 
 # travis-broken-example
 
