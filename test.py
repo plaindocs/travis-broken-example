@@ -1,4 +1,4 @@
 import numpy as np
 
-#hoge
+# hoge
 np.random.seed(42)
