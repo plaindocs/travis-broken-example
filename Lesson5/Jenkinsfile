@@ -1,5 +1,5 @@
 node('master') {
-    stage("Fetch Source Code") {
+    stage("Fetch Source Code") { 
 		cleanWs()
         git ([url: 'https://github.com/bstephgit/jenkins', branch: 'add-functions-and-tests'])
     }
